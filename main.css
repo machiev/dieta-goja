@@ -499,3 +499,19 @@ div.partner div {
   float: right;
   width: 76%;
 }
+
+th.visits-price-list-wallet-icon {
+  font-size: 16px;
+  text-align: center;
+}
+
+td.visits-price-list-type {
+  padding-right: 260px;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+td.visits-price-list-price {
+  text-align: right;
+  background: #ffd420;
+}
