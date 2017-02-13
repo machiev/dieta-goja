@@ -1,0 +1,62 @@
+[hidden] { display: none; }
+
+/*Define Accordion box*/
+.accordion {overflow:hidden; margin:10px auto; background:#FFD420; padding:10px 0;}
+
+/*General Accordion*/
+/*style of open slide*/
+.accordion section:target {color:#000; background:#FFF; padding:10px;}
+.accordion section:target:hover {background:#FFF; color:#000;}
+.accordion section:target h2 {width:100%; height:auto;}
+.accordion section:target h2 a { color:#000; padding:0px;}
+.accordion section:target:hover h2 a { color:#000; padding:0;}
+.accordion section:target p {display:block;}
+.accordion section:target h3 {display:block;}
+.accordion section:target ul {display:block;}
+.accordion section:target ol {display:block;}
+.accordion section:target a img {display:block; margin: 0px 10px 0px 0px; width: 128px; height: 128px;}
+.accordion section:target img {display:block;}
+.accordion section:target span {display:inline;}
+
+.accordion section h2 a {padding:8px 10px; display:block; font-size:16px; color:#000; font-weight:normal; text-decoration:none;}
+
+/*style of closed slide*/
+.accordion section{float:left; overflow:hidden; cursor:pointer; background:#fefb9a; margin:1px 0 0 0;}
+.accordion section:hover {background-color:#FFD420; transition:background-color 0.5s ease-in-out;}
+.accordion section:hover h2 a {color:#64822A;}
+.accordion section h2 a {padding:30px 0px 30px 0px;}
+.accordion section p {display:none;}
+.accordion section h3 {display:none;}
+.accordion section ul {display:none;}
+.accordion section ol {display:none;}
+.accordion section a img {display:block;}
+.accordion section img {display:none;}
+.accordion section span {display:none;}
+.accordion section:after{position:relative; font-size:24px; color:#eee; font-weight:bold;}
+/*End General Accordion*/
+
+/*Vertical Accordion */
+.vertical section {width:100%; height:72px;
+	-webkit-transition:height 0.2s ease-out;
+	-moz-transition:height 0.2s ease-out;
+  -o-transition:height 0.2s ease-out;
+	-ms-transition:height 0.2s ease-out;
+  transition:height 0.2s ease-out;
+}
+
+/*Set size of the slide*/
+.vertical :target {height:auto; width:98%}
+
+.vertical section h2 {position:relative; left:0; top:-12px;}
+
+.articleAuthor {font-size:90%;}
+
+.circular {
+    float: left;
+	width: 70px;
+	height: 70px;
+	margin: -23px 10px 0px 5px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	}
